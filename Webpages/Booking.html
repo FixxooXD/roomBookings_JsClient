@@ -1,0 +1,158 @@
+<html>
+  <head>
+    <title>Booking</title>
+    <style>
+      body {
+        background-image: url("../Images/booking.jfif");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 100%;
+        margin-bottom: 5%;
+      }
+    </style>
+    <script defer type="text/javascript" src="../src/booking.js"></script>
+  </head>
+
+  <body>
+    <a href="../index.html" style="text-decoration: none">
+      <h2 style="color: darkblue">StayBook.com</h2>
+    </a>
+    <br ><br ><br >
+
+    <div align="center" width="100%">
+      <!--<div style="background-color:white; margin-left:300px; margin-right:600px; border:2px solid darkblue">-->
+      <div
+        style="
+          background-color: #ffffffe8;
+          width: 50%;
+          height: 100%;
+          border: 2px solid darkblue;
+          border-radius: 10px;
+        "
+      >
+        <form id="formId">
+          <table cellspacing="3">
+            <tr>
+              <td align="center" colspan="2">
+                <h2 style="color: darkblue">Book Your Hotel Now!</h2>
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td align="right">Guest Name :</td>
+              <td align="left">
+                <input type="text" placeholder="Enter the name"  id="guestName" />
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td align="right">Location :</td>
+              <td align="left">
+                <input type="text" id="location" placeholder="Enter the location" />
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td align="right">Start date :</td>
+              <td align="left"><input type="date" id="startDate" /></td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td align="right">End date :</td>
+              <td align="left"><input type="date" id="endDate" /></td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td align="right">No of people :</td>
+              <td align="left">
+                <input placeholder="Enter the No of people"
+                id="peopleCount" type="number" />
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td align="right">Room Types:</td>
+              <td align="left">
+                <select id="room" name="room">
+                  <option value="Delux Room">Delux Room</option>
+                  <option value="Triple Room">Triple Room</option>
+                  <option value="Double Room">Double Room</option>
+                  <option value="Single Room">Single Room</option>
+                </select>
+              </td>
+            <!-- </tr>
+            <tr>
+               <td>&nbsp;</td> -->
+              <!-- <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+             <tr> --> 
+              <br>
+              <br>
+              <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
+              <td align="right">Payment Method :</td>
+              <td align="left">
+                <select id="pay" name="pay">
+                  <option value="">Debit Card</option>
+                  <option value="">Credit Card</option>
+                  <option value="">UPI Payment</option>
+                  <option value="">Net Banking</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+            </tr>
+            <tr>
+              <td align="center" colspan="2">
+                <button width="100%">Book Hotel</button>
+              </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
